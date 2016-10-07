@@ -26,3 +26,12 @@ keytool -importkeystore -srckeystore your.p12 -srcstoretype pkcs12 -destkeystore
 
 * https://en.wikipedia.org/wiki/PKCS_12
 
+### Prüfen eines Zertifikates mit `openssl`
+
+```shell
+openssl x509 -noout -text -in your.cer
+```
+
+Quellen:
+* [OpenSSL Zertifikate](https://wiki.magenbrot.net/linux/kryptographie/openssl-zertifikate)
+
