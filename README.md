@@ -5,6 +5,7 @@ Sammlung von Scripten und Informationen
 
 Verwandte Themen:
 
+* [Java Keytool](http://docs.oracle.com/javase/6/docs/technotes/tools/windows/keytool.html)
 * [openssl](https://www.openssl.org/) 
 
 ```shell
