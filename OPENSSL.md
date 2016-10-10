@@ -14,6 +14,8 @@ Das [Cryptographie and SSL/TLS Toolkit][1] `OpenSSL` implementiert eine Reihe vo
 
 ## Anwendung
 
+### Einfache Anwendungen 
+
 ```shell
 # Anzeigen der Versionsnummer und wichtigen Informationen zur Plattform
 openssl version -a
@@ -25,6 +27,15 @@ netstat -tlna
 
 # Aufbau einer SSL-Verbindung und Anzeigen des SSL-Handshakes
 openssl s_client -connect localhost:55443
+```
+
+### Security-Prüfungen
+
+Testen, ob `Secure Renegotiation` unterstützt wird
+
+```shell
+# Secure Renegotiation Soll-Zustand: Fallback not supported => Secure Renegotiation IS NOT supported
+openssl s_client -fallback_scsv -connect localhost:55443
 ```
 
 ## Terminologie 
