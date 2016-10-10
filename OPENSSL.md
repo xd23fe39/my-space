@@ -19,6 +19,14 @@ Das [Cryptographie and SSL/TLS Toolkit][1] `OpenSSL` implementiert eine Reihe vo
 openssl version -a
 ```
 
+```shell
+# Anlisten der offenen Ports
+netstat -tlna
+
+# Aufbau einer SSL-Verbindung und Anzeigen des SSL-Handshakes
+openssl s_client -connect localhost:55443
+```
+
 ## Terminologie 
 
 * Public-Key Cryptography Standards (PKCS) [RFC3447][rfc3447]
