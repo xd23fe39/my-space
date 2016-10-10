@@ -3,6 +3,14 @@
 [rfc1321]: https://tools.ietf.org/html/rfc1321
 [rfc3280]: https://tools.ietf.org/html/rfc3280
 [rfc3447]: https://tools.ietf.org/html/rfc3447
+[1]: https://www.openssl.org/
+[2]: https://www.openssl.org/docs/standards.html
+[3]: https://wiki.ubuntuusers.de/Apache/SSL/
+
+Sammlung von Informationen zu `OpenSSL`
+======================================
+
+Das [Cryptographie and SSL/TLS Toolkit][1] `OpenSSL` implementiert eine Reihe von Spezifikationen und Standards für das Verschlüsseln und Signieren von Nachrichten. 
 
 ## Terminologie 
 
