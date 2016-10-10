@@ -12,6 +12,13 @@ Sammlung von Informationen zu `OpenSSL`
 
 Das [Cryptographie and SSL/TLS Toolkit][1] `OpenSSL` implementiert eine Reihe von Spezifikationen und Standards für das Verschlüsseln und Signieren von Nachrichten. 
 
+## Anwendung
+
+```shell
+# Anzeigen der Versionsnummer und wichtigen Informationen zur Plattform
+openssl version -a
+```
+
 ## Terminologie 
 
 * Public-Key Cryptography Standards (PKCS) [RFC3447][rfc3447]
