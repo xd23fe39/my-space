@@ -6,6 +6,7 @@
 [1]: https://www.openssl.org/
 [2]: https://www.openssl.org/docs/standards.html
 [3]: https://wiki.ubuntuusers.de/Apache/SSL/
+[A001]: https://www.secuvera.de/blog/tls-renegotiation-schwachstelle-erklaerung-und-auswirkungen/
 
 Sammlung von Informationen zu `OpenSSL`
 ======================================
@@ -31,7 +32,7 @@ openssl s_client -connect localhost:55443
 
 ### Security-Prüfungen
 
-Testen, ob `Secure Renegotiation` unterstützt wird
+Testen der `Secure Renegotiation` [Schwachstelle][A001]:
 
 ```shell
 # Secure Renegotiation Soll-Zustand: Fallback not supported => Secure Renegotiation IS NOT supported
