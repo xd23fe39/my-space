@@ -35,7 +35,7 @@ openssl s_client -connect localhost:55443
 Testen der `Secure Renegotiation` [Schwachstelle][A001]:
 
 ```shell
-# Secure Renegotiation Soll-Zustand: Fallback not supported => Secure Renegotiation IS NOT supported
+# Secure Renegotiation Soll-Zustand => Secure Renegotiation IS supported
 openssl s_client -fallback_scsv -connect localhost:55443
 ```
 
