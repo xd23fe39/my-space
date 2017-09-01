@@ -48,3 +48,16 @@ stehenden Zeilen in die Datei `.apmrc` ein:
 ; See: https://github.com/atom/apm/issues/338
 proxy=http://your-proxy.company.com:8080
 strict-ssl=false
+```
+
+```
+apm config set strict-ssl false
+apm config set https-proxy proxy:8080
+apm config set http-proxy proxy:8080
+apm config set proxy proxy:8080
+apm config list
+```
+
+Quellen:
+
+- https://github.com/atom/apm#behind-a-firewall
